@@ -7,7 +7,8 @@ function soma() {
 
     const valorCalculo = parseFloat(n1.value) + parseFloat(n2.value)
 
-    resultado.innerText = valorCalculo
+   // resultado.innerText = valorCalculo
+   exibirResultado(valorCalculo)
 }
 //soma();
 
